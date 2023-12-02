@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <title>Admin Dashboard</title>
+</head>
+<body>
+  <div class="container">
+    <div class="search-bar">
+      <input type="text" placeholder="Search" id="search-input">
+      <!-- Replace the search icon with the Material Icons delete icon -->
+      <div class="delete-icon" id="delete-selected">
+        <i class="material-icons">delete</i>
+      </div>
+    </div>
+    <div class="table-responsive">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Role</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="data-table">
+          <!-- Fetch data from the API and populate the table rows -->
+        </tbody>
+      </table>
+      <div class="pagination">
+        <button class="prev-page">Previous Page</button>
+        <button class="next-page">Next Page</button>
+        <button class="first-page">First Page</button>
+        <button class="last-page">Last Page</button>
+        <select class="page-number">
+          <option value="10">10</option>
+          <option value="25">25</option>
+          <option value="50">50</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <script src="mains.js"></script>
+</body>
+</html>
