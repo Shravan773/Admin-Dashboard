@@ -44,10 +44,5 @@ This is a basic admin dashboard web application that allows you to view, edit, a
 - [Ionicons](https://ionicons.com/) - Used for delete icon.
 - [Google Fonts](https://fonts.google.com/) - Used for font styling.
 
-## Acknowledgments
 
-This project is a basic implementation and can be extended with additional features and improvements. Feel free to customize and enhance it based on your requirements.
 
----
-
-Feel free to customize this README based on your specific project details and any additional features you may want to highlight.
